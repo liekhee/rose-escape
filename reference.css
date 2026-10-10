@@ -35,3 +35,4 @@
 
 #hud b,#hearts{white-space:nowrap}
 @media(orientation:landscape) and (max-height:500px){#hud{gap:12px;padding:6px 10px}#hud b{font-size:14px}#hud small{font-size:8px;letter-spacing:1px}#hearts{font-size:20px}.progress{min-width:0;flex:1}#stageLabel{font-size:7px!important;letter-spacing:.5px!important}}
+@media(orientation:landscape) and (max-height:500px){#frame[data-screen="levels"] .panel h2{font-size:32px;margin:4px}#frame[data-screen="levels"] .eyebrow{font-size:8px;margin-bottom:6px}#frame[data-screen="levels"] .cards{margin:10px 0}#frame[data-screen="levels"] .card{padding:12px 6px}#frame[data-screen="levels"] .card strong{font-size:20px;margin:8px 0}#frame[data-screen="levels"] .card small{font-size:8px;margin:7px 0}#frame[data-screen="levels"] .nav{margin-top:8px}}

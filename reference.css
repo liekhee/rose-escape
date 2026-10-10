@@ -32,3 +32,6 @@
 
 #frame[data-screen="wardrobe"] .portrait{height:120px;width:96px;object-fit:contain;margin:auto}
 @media(max-width:550px){#pause{min-width:44px;min-height:44px}#frame[data-screen="menu"] .nav button{font-size:8px;min-height:40px}}
+
+#hud b,#hearts{white-space:nowrap}
+@media(orientation:landscape) and (max-height:500px){#hud{gap:12px;padding:6px 10px}#hud b{font-size:14px}#hud small{font-size:8px;letter-spacing:1px}#hearts{font-size:20px}.progress{min-width:0;flex:1}#stageLabel{font-size:7px!important;letter-spacing:.5px!important}}
